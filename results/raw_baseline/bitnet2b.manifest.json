@@ -1,0 +1,27 @@
+{
+  "model": "bitnet2b",
+  "spec": {
+    "repo": "microsoft/bitnet-b1.58-2B-4T",
+    "tokenizer": "microsoft/bitnet-b1.58-2B-4T",
+    "context": 4096,
+    "native": 4096,
+    "vram_gib": 9,
+    "backend": "transformers"
+  },
+  "revision": "04c3b9ad9361b824064a1f25ea60a8be9599b127",
+  "dataset_hash": "ed5363363a77f2f57439084a6863ac06af1f3f8b652fd09d48f53cf08060c87d",
+  "policy": {
+    "version": 2,
+    "mode": "raw-baseline",
+    "prompt": "original-no-cleanup-no-added-instructions",
+    "max_new_tokens": 2048,
+    "min_new_tokens": 256,
+    "temperature": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "decoding": "greedy-unconstrained",
+    "context": "reduce-output-budget-then-truncate-log-tail",
+    "safety_margin": 16
+  },
+  "config_hash": "985851409bf770022f7915a84f7a040340830498a78bc5a5a926021c607e431c"
+}
