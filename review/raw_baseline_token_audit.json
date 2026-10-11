@@ -1,0 +1,132 @@
+{
+  "records": 990,
+  "mode": "raw-baseline-original-prompts",
+  "models": {
+    "qwen1b": {
+      "tokenizer_repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "tokenizer_source_context": 32768,
+      "model_native_limit": 32768,
+      "caveat": "HF template; GGUF worker verifies its own template",
+      "minimum": 338,
+      "median": 1872,
+      "p95": 8209,
+      "maximum": 14033,
+      "context": 16384,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 0,
+      "reduced_output_budget_rows": 0,
+      "max_effective_prompt_tokens": 14033,
+      "former_failures": {
+        "2": 1039,
+        "89": 987,
+        "172": 2090
+      }
+    },
+    "hermes": {
+      "tokenizer_repo": "vicgalle/OpenHermes-Qwen1.5-1.8B",
+      "tokenizer_source_context": 32768,
+      "model_native_limit": 32768,
+      "caveat": "HF template; GGUF worker verifies its own template",
+      "minimum": 327,
+      "median": 1861,
+      "p95": 8198,
+      "maximum": 14022,
+      "context": 16384,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 0,
+      "reduced_output_budget_rows": 0,
+      "max_effective_prompt_tokens": 14022,
+      "former_failures": {
+        "2": 1028,
+        "89": 976,
+        "172": 2079
+      }
+    },
+    "bitnet2b": {
+      "tokenizer_repo": "microsoft/bitnet-b1.58-2B-4T",
+      "tokenizer_source_context": 4096,
+      "model_native_limit": 4096,
+      "caveat": "HF template; GGUF worker verifies its own template",
+      "minimum": 302,
+      "median": 1482,
+      "p95": 6557,
+      "maximum": 10972,
+      "context": 4096,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 168,
+      "reduced_output_budget_rows": 329,
+      "max_effective_prompt_tokens": 3824,
+      "former_failures": {
+        "2": 845,
+        "89": 817,
+        "172": 1634
+      }
+    },
+    "llama3b": {
+      "tokenizer_repo": "microsoft/bitnet-b1.58-2B-4T",
+      "tokenizer_source_context": 4096,
+      "model_native_limit": 131072,
+      "caveat": "Llama-3 vocabulary proxy; GGUF worker audit authoritative",
+      "minimum": 302,
+      "median": 1482,
+      "p95": 6557,
+      "maximum": 10972,
+      "context": 16384,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 0,
+      "reduced_output_budget_rows": 0,
+      "max_effective_prompt_tokens": 10972,
+      "former_failures": {
+        "2": 845,
+        "89": 817,
+        "172": 1634
+      }
+    },
+    "mistral7b": {
+      "tokenizer_repo": "mistralai/Mistral-7B-Instruct-v0.3",
+      "tokenizer_source_context": 32768,
+      "model_native_limit": 32768,
+      "caveat": "HF template; GGUF worker verifies its own template",
+      "minimum": 364,
+      "median": 2019,
+      "p95": 9075,
+      "maximum": 15634,
+      "context": 20480,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 0,
+      "reduced_output_budget_rows": 0,
+      "max_effective_prompt_tokens": 15634,
+      "former_failures": {
+        "2": 1116,
+        "89": 1054,
+        "172": 2301
+      }
+    },
+    "qwen7b": {
+      "tokenizer_repo": "Qwen/Qwen2.5-7B-Instruct",
+      "tokenizer_source_context": 32768,
+      "model_native_limit": 32768,
+      "caveat": "HF template; GGUF worker verifies its own template",
+      "minimum": 338,
+      "median": 1872,
+      "p95": 8209,
+      "maximum": 14033,
+      "context": 16384,
+      "max_new_tokens": 2048,
+      "min_new_tokens": 256,
+      "truncated_rows": 0,
+      "reduced_output_budget_rows": 0,
+      "max_effective_prompt_tokens": 14033,
+      "former_failures": {
+        "2": 1039,
+        "89": 987,
+        "172": 2090
+      }
+    }
+  }
+}
