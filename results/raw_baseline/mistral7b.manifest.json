@@ -1,0 +1,27 @@
+{
+  "model": "mistral7b",
+  "spec": {
+    "repo": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "file": "Mistral-7B-Instruct-v0.3-IQ1_M.gguf",
+    "tokenizer": "mistralai/Mistral-7B-Instruct-v0.3",
+    "context": 20480,
+    "native": 32768,
+    "vram_gib": 13
+  },
+  "revision": "61fd4167fff3ab01ee1cfe0da183fa27a944db48",
+  "dataset_hash": "ed5363363a77f2f57439084a6863ac06af1f3f8b652fd09d48f53cf08060c87d",
+  "policy": {
+    "version": 2,
+    "mode": "raw-baseline",
+    "prompt": "original-no-cleanup-no-added-instructions",
+    "max_new_tokens": 2048,
+    "min_new_tokens": 256,
+    "temperature": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "decoding": "greedy-unconstrained",
+    "context": "reduce-output-budget-then-truncate-log-tail",
+    "safety_margin": 16
+  },
+  "config_hash": "25f517e0b989d42a2aa10b3a5dcb4e88bb4ee76491d7aa2c2fe4c0f6bee27e42"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "qwen7b",
+  "spec": {
+    "repo": "ThomasBaruzier/Qwen2.5-7B-Instruct-GGUF",
+    "file": "Qwen2.5-7B-Instruct-IQ1_M.gguf",
+    "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+    "context": 16384,
+    "native": 32768,
+    "vram_gib": 10
+  },
+  "revision": "1fbcd3aab2d31a7a54df7b2459288241171948cc",
+  "dataset_hash": "ed5363363a77f2f57439084a6863ac06af1f3f8b652fd09d48f53cf08060c87d",
+  "policy": {
+    "version": 2,
+    "mode": "raw-baseline",
+    "prompt": "original-no-cleanup-no-added-instructions",
+    "max_new_tokens": 2048,
+    "min_new_tokens": 256,
+    "temperature": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "decoding": "greedy-unconstrained",
+    "context": "reduce-output-budget-then-truncate-log-tail",
+    "safety_margin": 16
+  },
+  "config_hash": "ff48a78b58d10b34fcae1e594c9578f07ecfecca3a0b0231de5047c4ffbd4a37"
+}

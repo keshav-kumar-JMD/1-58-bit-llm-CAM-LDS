@@ -1,0 +1,27 @@
+{
+  "model": "llama3b",
+  "spec": {
+    "repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+    "file": "Llama-3.2-3B-Instruct-IQ3_M.gguf",
+    "tokenizer": "meta-llama/Llama-3.2-3B-Instruct",
+    "context": 16384,
+    "native": 131072,
+    "vram_gib": 7
+  },
+  "revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+  "dataset_hash": "ed5363363a77f2f57439084a6863ac06af1f3f8b652fd09d48f53cf08060c87d",
+  "policy": {
+    "version": 2,
+    "mode": "raw-baseline",
+    "prompt": "original-no-cleanup-no-added-instructions",
+    "max_new_tokens": 2048,
+    "min_new_tokens": 256,
+    "temperature": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "decoding": "greedy-unconstrained",
+    "context": "reduce-output-budget-then-truncate-log-tail",
+    "safety_margin": 16
+  },
+  "config_hash": "a3aeb1b59ce509ad78f936910bb3b528377406d19c7c4b1d400a1167b14a1924"
+}
